@@ -19,7 +19,7 @@ pipeline {
 		stage("deploy") {
 			steps {
 				echo 'deploying the applicaiton...'
-                echo "delpoy version $(params.VERSION)"
+                echo "delpoy version ${params.VERSION}"
 			}
 		}
 	}
